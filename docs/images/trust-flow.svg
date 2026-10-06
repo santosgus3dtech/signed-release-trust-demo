@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="360" viewBox="0 0 1100 360">
+  <rect width="1100" height="360" fill="#f5f7f8"/>
+  <text x="50" y="54" font-family="Arial" font-size="25" font-weight="700" fill="#18232b">Signed release trust flow</text>
+  <text x="50" y="82" font-family="Arial" font-size="13" fill="#687681">A generic demonstration with locally generated keys and disposable packages</text>
+  <g font-family="Arial">
+    <rect x="50" y="130" width="190" height="110" fill="#fff" stroke="#cbd5da"/><text x="145" y="169" text-anchor="middle" font-size="12" fill="#65737c">BUILD</text><text x="145" y="199" text-anchor="middle" font-size="18" font-weight="700" fill="#1d303a">Release package</text>
+    <rect x="300" y="130" width="190" height="110" fill="#eaf2f7" stroke="#9bb9cb"/><text x="395" y="169" text-anchor="middle" font-size="12" fill="#517186">SIGN</text><text x="395" y="199" text-anchor="middle" font-size="18" font-weight="700" fill="#204e68">Ed25519 manifest</text>
+    <rect x="550" y="130" width="190" height="110" fill="#eaf4ef" stroke="#9cc9b1"/><text x="645" y="169" text-anchor="middle" font-size="12" fill="#4f7962">VERIFY</text><text x="645" y="199" text-anchor="middle" font-size="18" font-weight="700" fill="#225d43">Hashes + signature</text>
+    <rect x="800" y="130" width="250" height="110" fill="#fff" stroke="#cbd5da"/><text x="925" y="169" text-anchor="middle" font-size="12" fill="#65737c">ACTIVATE</text><text x="925" y="199" text-anchor="middle" font-size="18" font-weight="700" fill="#1d303a">Versioned install / rollback</text>
+    <path d="M240 185H292M490 185H542M740 185H792" stroke="#53707f" stroke-width="2"/><path d="M286 179l8 6-8 6M536 179l8 6-8 6M786 179l8 6-8 6" fill="none" stroke="#53707f" stroke-width="2"/>
+    <rect x="300" y="278" width="440" height="44" fill="#fff" stroke="#cbd5da"/><text x="520" y="305" text-anchor="middle" font-size="13" fill="#334954">Short-lived, signed device lease with audience and expiry checks</text>
+  </g>
+</svg>
