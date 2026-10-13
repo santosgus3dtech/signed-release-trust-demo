@@ -1,5 +1,7 @@
 # Signed Release Trust Demo
 
+🇧🇷 [Leia este README em Português (Brasil)](README.pt-BR.md).
+
 A focused security demo for Ed25519-signed release manifests, verified installation, atomic activation, rollback and short-lived device leases.
 
 ![Signed release trust flow](docs/images/trust-flow.svg)
